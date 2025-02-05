@@ -29,7 +29,6 @@ class BookModel extends BookEntity {
             imageUrl: volumeInfo!.imageLinks?.thumbnail ?? '',
             bookTitle: volumeInfo.title!,
             authorName: volumeInfo.authors?.first ?? '',
-            price: 0,
             rating: 5.0,
             count: 256);
 
